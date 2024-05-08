@@ -1,5 +1,5 @@
 import React from 'react'
-
+import life from '../img/life.jpg'
 function Campus() {
   return (
     <div className="m-10 p-5 md:p-10 bg-blue">
@@ -15,7 +15,7 @@ function Campus() {
           
         </div>
         <div className="md:w-1/2 mb-6 md:mb-0">
-          <img src="http://imsec.ac.in/assets/images/lifeimsec/new/celebrities/6.jpg" alt="About Us" className="rounded-lg shadow-lg w-full" />
+          <img src={life} alt="About Us" className="rounded-lg shadow-lg w-full" />
         </div>
       </div>
     </div>

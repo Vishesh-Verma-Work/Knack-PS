@@ -1,8 +1,8 @@
 import React from 'react';
-
+import hero from '../img/hero.jpg'
 function Hero() {
   return (
-    <div className="hero min-h-screen" style={{backgroundImage: 'url(https://lh3.googleusercontent.com/proxy/2zRSCARPMnKYCmi6DCFfjgJlmvfIg8BB98n_ooF8iIq-gZzuqMzPW-GCt8-_oVFU685f5JRbnoqb2AyWdbSghRnaZ78vzoPlpkEh4shlbg)'}}>
+    <div className="hero min-h-screen" style={{backgroundImage: `url(${hero})`}}>
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-center text-neutral-content">
         <div className="max-w-md">

@@ -1,11 +1,11 @@
 import React from 'react';
-
+import sport from '../img/sport.jpg'
 function CSE() {
   return (
     <div className="m-10 p-5 md:p-10 bg-blue">
       <div className="flex flex-col md:flex-row items-center justify-center md:justify-between">
         <div className="md:w-1/2 mb-6 md:mb-0">
-          <img src="http://imsec.ac.in/images/event/16161513871.jpg" alt="About Us" className="rounded-lg shadow-lg w-full" />
+          <img src={sport} alt="About Us" className="rounded-lg shadow-lg w-full" />
         </div>
         <div className="md:w-1/2 p-5">
           <h2 className="text-2xl font-bold mb-4 text-white">Sports Clubs</h2>
