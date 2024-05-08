@@ -9,7 +9,7 @@ function Login() {
       <h1 className="text-5xl font-bold">Login now!</h1>
       <p className="py-6">Unlock the full potential of our college experience by logging in. Dive deeper into our campus life, academic offerings, and vibrant community. Start your journey today and explore all that our college has to offer.</p>
     </div>
-    <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100 m-10">
+    <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
       <form className="card-body">
         <div className="form-control">
           <label className="label">
