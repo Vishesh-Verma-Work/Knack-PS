@@ -11,6 +11,7 @@ import CSE from './component/CSE'
 import Divider from './component/Divider'
 import Campus from './component/Campus'
 import Login from './component/Login'
+import Stats from './component/Stats'
 
 function App() {
   return (
@@ -28,6 +29,8 @@ function App() {
     <CSE/>
     <Divider heading="Life@IMSEC"/>
     <Campus/>
+    <Divider heading="Stats of IMSEC"/>
+    <Stats/>
     <Divider heading="Contact Us"/>
     <Contact/>
     <Footer/>
