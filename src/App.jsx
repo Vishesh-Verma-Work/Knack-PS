@@ -10,6 +10,7 @@ import About from './component/About'
 import CSE from './component/CSE'
 import Divider from './component/Divider'
 import Campus from './component/Campus'
+import Login from './component/Login'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
     <Hero/>
     <Divider heading="Department Heads"/>
     <Cards/>
+    <Login/>
     <Divider heading="IMSEC TimeLine"/>
     <TimeLine/>
     <Divider heading="About IMSEC"/>
